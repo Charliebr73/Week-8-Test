@@ -1,0 +1,882 @@
+
+the Friday test :)
+
+the Friday test :)
+  select_elements_starting_with_a (FAILED - 1)
+  select_elements_starting_with_a (FAILED - 1)
+  select_elements_starting_with_vowel (FAILED - 2)
+  select_elements_starting_with_vowel (FAILED - 2)
+  remove_nils_from_array (FAILED - 3)
+  remove_nils_from_array (FAILED - 3)
+  remove_nils_and_false_from_array (FAILED - 4)
+  remove_nils_and_false_from_array (FAILED - 4)
+  reverse_every_element_in_array (FAILED - 5)
+  reverse_every_element_in_array (FAILED - 5)
+  every_possible_pairing_of_students (FAILED - 6)
+  every_possible_pairing_of_students (FAILED - 6)
+  all_elements_except_first_3 (FAILED - 7)
+  all_elements_except_first_3 (FAILED - 7)
+  add_element_to_beginning_of_array (FAILED - 8)
+  add_element_to_beginning_of_array (FAILED - 8)
+  array_sort_by_last_letter_of_word (FAILED - 9)
+  array_sort_by_last_letter_of_word (FAILED - 9)
+  get_first_half_of_string (FAILED - 10)
+  get_first_half_of_string (FAILED - 10)
+  make_numbers_negative (FAILED - 11)
+  make_numbers_negative (FAILED - 11)
+  separate_array_into_even_and_odd_numbers (FAILED - 12)
+  separate_array_into_even_and_odd_numbers (FAILED - 12)
+  number_of_elements_that_are_palindromes (FAILED - 13)
+  number_of_elements_that_are_palindromes (FAILED - 13)
+  shortest_word_in_array (FAILED - 14)
+  shortest_word_in_array (FAILED - 14)
+  longest_word_in_array (FAILED - 15)
+  longest_word_in_array (FAILED - 15)
+  total_of_array (FAILED - 16)
+  total_of_array (FAILED - 16)
+  double_array (FAILED - 17)
+  double_array (FAILED - 17)
+  turn_symbol_into_string (FAILED - 18)
+  turn_symbol_into_string (FAILED - 18)
+  average_of_array (FAILED - 19)
+  average_of_array (FAILED - 19)
+  get_elements_until_greater_than_five (FAILED - 20)
+  get_elements_until_greater_than_five (FAILED - 20)
+  convert_array_to_a_hash (FAILED - 21)
+  convert_array_to_a_hash (FAILED - 21)
+  get_all_letters_in_array_of_words (FAILED - 22)
+  get_all_letters_in_array_of_words (FAILED - 22)
+  swap_keys_and_values_in_a_hash (FAILED - 23)
+  swap_keys_and_values_in_a_hash (FAILED - 23)
+  add_together_keys_and_values (FAILED - 24)
+  add_together_keys_and_values (FAILED - 24)
+  remove_capital_letters_from_string (FAILED - 25)
+  remove_capital_letters_from_string (FAILED - 25)
+  round_up_number (FAILED - 26)
+  round_up_number (FAILED - 26)
+  round_down_number (FAILED - 27)
+  round_down_number (FAILED - 27)
+  format_date_nicely (FAILED - 28)
+  format_date_nicely (FAILED - 28)
+  get_domain_name_from_email_address (FAILED - 29)
+  get_domain_name_from_email_address (FAILED - 29)
+  titleize_a_string (FAILED - 30)
+  titleize_a_string (FAILED - 30)
+  check_a_string_for_special_characters (FAILED - 31)
+  check_a_string_for_special_characters (FAILED - 31)
+  get_upper_limit_of (FAILED - 32)
+  get_upper_limit_of (FAILED - 32)
+  is_a_3_dot_range? (FAILED - 33)
+  is_a_3_dot_range? (FAILED - 33)
+  square_root_of (FAILED - 34)
+  square_root_of (FAILED - 34)
+  word_count_a_file (FAILED - 35)
+  word_count_a_file (FAILED - 35)
+  call_method_from_string (FAILED - 36)
+  call_method_from_string (FAILED - 36)
+  is_a_2014_bank_holiday? (FAILED - 37)
+  is_a_2014_bank_holiday? (FAILED - 37)
+  your_birthday_is_on_a_friday_in_the_year (FAILED - 38)
+  your_birthday_is_on_a_friday_in_the_year (FAILED - 38)
+  count_words_of_each_length_in_a_file (FAILED - 39)
+  count_words_of_each_length_in_a_file (FAILED - 39)
+
+Failures:
+
+  1) the Friday test :) select_elements_starting_with_a
+     Failure/Error: expect(n).to eq ['apples', 'avocados']
+       
+       expected: ["apples", "avocados"]
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:13:in `block (2 levels) in <top (required)>'
+
+  2) the Friday test :) select_elements_starting_with_vowel
+     Failure/Error: expect(n).to eq ['omar', 'idris', 'angela']
+       
+       expected: ["omar", "idris", "angela"]
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:18:in `block (2 levels) in <top (required)>'
+
+  3) the Friday test :) remove_nils_from_array
+     Failure/Error: expect(n).to eq ['a', 'b', false, 'c']
+       
+       expected: ["a", "b", false, "c"]
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:23:in `block (2 levels) in <top (required)>'
+
+  4) the Friday test :) remove_nils_and_false_from_array
+     Failure/Error: expect(n).to eq ['a', 'b', 'c']
+       
+       expected: ["a", "b", "c"]
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:28:in `block (2 levels) in <top (required)>'
+
+  5) the Friday test :) reverse_every_element_in_array
+     Failure/Error: expect(n).to eq ['god', 'yeknom', 'tnahpele']
+       
+       expected: ["god", "yeknom", "tnahpele"]
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:33:in `block (2 levels) in <top (required)>'
+
+  6) the Friday test :) every_possible_pairing_of_students
+     Failure/Error: expect(sorted).to eq [['Bob', 'Clive'], ['Bob', 'Dave'], ['Clive', 'Dave']]
+       
+       expected: [["Bob", "Clive"], ["Bob", "Dave"], ["Clive", "Dave"]]
+            got: []
+       
+       (compared using ==)
+     # ./questions_spec.rb:40:in `block (2 levels) in <top (required)>'
+
+  7) the Friday test :) all_elements_except_first_3
+     Failure/Error: expect(n).to eq [4, 5, 6, 7]
+       
+       expected: [4, 5, 6, 7]
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:45:in `block (2 levels) in <top (required)>'
+
+  8) the Friday test :) add_element_to_beginning_of_array
+     Failure/Error: expect(n).to eq [1, 2, 3, 4, 5]
+       
+       expected: [1, 2, 3, 4, 5]
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:50:in `block (2 levels) in <top (required)>'
+
+  9) the Friday test :) array_sort_by_last_letter_of_word
+     Failure/Error: expect(n).to eq ['puma', 'maker', 'sky']
+       
+       expected: ["puma", "maker", "sky"]
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:55:in `block (2 levels) in <top (required)>'
+
+  10) the Friday test :) get_first_half_of_string
+     Failure/Error: expect(a).to eq 'ban'
+       
+       expected: "ban"
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:62:in `block (2 levels) in <top (required)>'
+
+  11) the Friday test :) make_numbers_negative
+     Failure/Error: expect(a).to eq -5
+       
+       expected: -5
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:70:in `block (2 levels) in <top (required)>'
+
+  12) the Friday test :) separate_array_into_even_and_odd_numbers
+     Failure/Error: expect(n).to eq [[2, 4, 6], [1, 3, 5, 7]]
+       
+       expected: [[2, 4, 6], [1, 3, 5, 7]]
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:76:in `block (2 levels) in <top (required)>'
+
+  13) the Friday test :) number_of_elements_that_are_palindromes
+     Failure/Error: expect(n).to eq 3
+       
+       expected: 3
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:81:in `block (2 levels) in <top (required)>'
+
+  14) the Friday test :) shortest_word_in_array
+     Failure/Error: expect(n).to eq 'a'
+       
+       expected: "a"
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:86:in `block (2 levels) in <top (required)>'
+
+  15) the Friday test :) longest_word_in_array
+     Failure/Error: expect(n).to eq 'different'
+       
+       expected: "different"
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:91:in `block (2 levels) in <top (required)>'
+
+  16) the Friday test :) total_of_array
+     Failure/Error: expect(n).to eq 25
+       
+       expected: 25
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:96:in `block (2 levels) in <top (required)>'
+
+  17) the Friday test :) double_array
+     Failure/Error: expect(n).to eq [1, 2, 3, 1, 2, 3]
+       
+       expected: [1, 2, 3, 1, 2, 3]
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:101:in `block (2 levels) in <top (required)>'
+
+  18) the Friday test :) turn_symbol_into_string
+     Failure/Error: expect(n).to eq 'foobar'
+       
+       expected: "foobar"
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:106:in `block (2 levels) in <top (required)>'
+
+  19) the Friday test :) average_of_array
+     Failure/Error: expect(n).to eq 17
+       
+       expected: 17
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:111:in `block (2 levels) in <top (required)>'
+
+  20) the Friday test :) get_elements_until_greater_than_five
+     Failure/Error: expect(n).to eq [1, 3, 5, 4, 1, 2]
+       
+       expected: [1, 3, 5, 4, 1, 2]
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:116:in `block (2 levels) in <top (required)>'
+
+  21) the Friday test :) convert_array_to_a_hash
+     Failure/Error: expect(n).to eq({'a' => 'b', 'c' => 'd'})
+       
+       expected: {"a"=>"b", "c"=>"d"}
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:121:in `block (2 levels) in <top (required)>'
+
+  22) the Friday test :) get_all_letters_in_array_of_words
+     Failure/Error: expect(n).to eq ['a', 'c', 'd', 'f', 'g', 'h', 'i', 'o', 's', 't']
+       
+       expected: ["a", "c", "d", "f", "g", "h", "i", "o", "s", "t"]
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:126:in `block (2 levels) in <top (required)>'
+
+  23) the Friday test :) swap_keys_and_values_in_a_hash
+     Failure/Error: expect(n).to eq({'b' => 'a', 'd' => 'c'})
+       
+       expected: {"b"=>"a", "d"=>"c"}
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:131:in `block (2 levels) in <top (required)>'
+
+  24) the Friday test :) add_together_keys_and_values
+     Failure/Error: expect(n).to eq 6
+       
+       expected: 6
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:136:in `block (2 levels) in <top (required)>'
+
+  25) the Friday test :) remove_capital_letters_from_string
+     Failure/Error: expect(n).to eq 'ello ohnoe'
+       
+       expected: "ello ohnoe"
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:141:in `block (2 levels) in <top (required)>'
+
+  26) the Friday test :) round_up_number
+     Failure/Error: expect(n).to eq 4
+       
+       expected: 4
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:146:in `block (2 levels) in <top (required)>'
+
+  27) the Friday test :) round_down_number
+     Failure/Error: expect(n).to eq 4
+       
+       expected: 4
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:151:in `block (2 levels) in <top (required)>'
+
+  28) the Friday test :) format_date_nicely
+     Failure/Error: expect(n).to eq '31/10/2013'
+       
+       expected: "31/10/2013"
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:156:in `block (2 levels) in <top (required)>'
+
+  29) the Friday test :) get_domain_name_from_email_address
+     Failure/Error: expect(n).to eq 'makersacademy'
+       
+       expected: "makersacademy"
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:161:in `block (2 levels) in <top (required)>'
+
+  30) the Friday test :) titleize_a_string
+     Failure/Error: expect(n).to eq 'The Lion the Witch and the Wardrobe'
+       
+       expected: "The Lion the Witch and the Wardrobe"
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:166:in `block (2 levels) in <top (required)>'
+
+  31) the Friday test :) check_a_string_for_special_characters
+     Failure/Error: expect(b).to be_true
+       expected: true value
+            got: nil
+     # ./questions_spec.rb:174:in `block (2 levels) in <top (required)>'
+
+  32) the Friday test :) get_upper_limit_of
+     Failure/Error: expect(n).to eq 20
+       
+       expected: 20
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:179:in `block (2 levels) in <top (required)>'
+
+  33) the Friday test :) is_a_3_dot_range?
+     Failure/Error: expect(b).to be_true
+       expected: true value
+            got: nil
+     # ./questions_spec.rb:187:in `block (2 levels) in <top (required)>'
+
+  34) the Friday test :) square_root_of
+     Failure/Error: expect(a).to eq 3.0
+       
+       expected: 3.0
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:193:in `block (2 levels) in <top (required)>'
+
+  35) the Friday test :) word_count_a_file
+     Failure/Error: expect(n).to eq 70
+       
+       expected: 70
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:199:in `block (2 levels) in <top (required)>'
+
+  36) the Friday test :) call_method_from_string
+     Failure/Error: expect { call_method_from_string('foobar') }.to raise_error(NameError)
+       expected NameError but nothing was raised
+     # ./questions_spec.rb:203:in `block (2 levels) in <top (required)>'
+
+  37) the Friday test :) is_a_2014_bank_holiday?
+     Failure/Error: expect(a).to be_true
+       expected: true value
+            got: nil
+     # ./questions_spec.rb:210:in `block (2 levels) in <top (required)>'
+
+  38) the Friday test :) your_birthday_is_on_a_friday_in_the_year
+     Failure/Error: expect(n).to eq 2016
+       
+       expected: 2016
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:216:in `block (2 levels) in <top (required)>'
+
+  39) the Friday test :) count_words_of_each_length_in_a_file
+     Failure/Error: expect(Hash[n.sort]).to eq({1=>1, 2=>5, 3=>7, 4=>12, 5=>14, 6=>4, 7=>8, 8=>6, 9=>6, 10=>2, 11=>2, 12=>3})
+       
+       expected: {1=>1, 2=>5, 3=>7, 4=>12, 5=>14, 6=>4, 7=>8, 8=>6, 9=>6, 10=>2, 11=>2, 12=>3}
+            got: {}
+       
+       (compared using ==)
+       
+       Diff:
+       @@ -1,13 +1 @@
+       -1 => 1,
+       -10 => 2,
+       -11 => 2,
+       -12 => 3,
+       -2 => 5,
+       -3 => 7,
+       -4 => 12,
+       -5 => 14,
+       -6 => 4,
+       -7 => 8,
+       -8 => 6,
+       -9 => 6
+     # ./questions_spec.rb:221:in `block (2 levels) in <top (required)>'
+
+Failures:
+
+  1) the Friday test :) select_elements_starting_with_a
+     Failure/Error: expect(n).to eq ['apples', 'avocados']
+       
+       expected: ["apples", "avocados"]
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:13:in `block (2 levels) in <top (required)>'
+
+  2) the Friday test :) select_elements_starting_with_vowel
+     Failure/Error: expect(n).to eq ['omar', 'idris', 'angela']
+       
+       expected: ["omar", "idris", "angela"]
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:18:in `block (2 levels) in <top (required)>'
+
+  3) the Friday test :) remove_nils_from_array
+     Failure/Error: expect(n).to eq ['a', 'b', false, 'c']
+       
+       expected: ["a", "b", false, "c"]
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:23:in `block (2 levels) in <top (required)>'
+
+  4) the Friday test :) remove_nils_and_false_from_array
+     Failure/Error: expect(n).to eq ['a', 'b', 'c']
+       
+       expected: ["a", "b", "c"]
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:28:in `block (2 levels) in <top (required)>'
+
+  5) the Friday test :) reverse_every_element_in_array
+     Failure/Error: expect(n).to eq ['god', 'yeknom', 'tnahpele']
+       
+       expected: ["god", "yeknom", "tnahpele"]
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:33:in `block (2 levels) in <top (required)>'
+
+  6) the Friday test :) every_possible_pairing_of_students
+     Failure/Error: expect(sorted).to eq [['Bob', 'Clive'], ['Bob', 'Dave'], ['Clive', 'Dave']]
+       
+       expected: [["Bob", "Clive"], ["Bob", "Dave"], ["Clive", "Dave"]]
+            got: []
+       
+       (compared using ==)
+     # ./questions_spec.rb:40:in `block (2 levels) in <top (required)>'
+
+  7) the Friday test :) all_elements_except_first_3
+     Failure/Error: expect(n).to eq [4, 5, 6, 7]
+       
+       expected: [4, 5, 6, 7]
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:45:in `block (2 levels) in <top (required)>'
+
+  8) the Friday test :) add_element_to_beginning_of_array
+     Failure/Error: expect(n).to eq [1, 2, 3, 4, 5]
+       
+       expected: [1, 2, 3, 4, 5]
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:50:in `block (2 levels) in <top (required)>'
+
+  9) the Friday test :) array_sort_by_last_letter_of_word
+     Failure/Error: expect(n).to eq ['puma', 'maker', 'sky']
+       
+       expected: ["puma", "maker", "sky"]
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:55:in `block (2 levels) in <top (required)>'
+
+  10) the Friday test :) get_first_half_of_string
+     Failure/Error: expect(a).to eq 'ban'
+       
+       expected: "ban"
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:62:in `block (2 levels) in <top (required)>'
+
+  11) the Friday test :) make_numbers_negative
+     Failure/Error: expect(a).to eq -5
+       
+       expected: -5
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:70:in `block (2 levels) in <top (required)>'
+
+  12) the Friday test :) separate_array_into_even_and_odd_numbers
+     Failure/Error: expect(n).to eq [[2, 4, 6], [1, 3, 5, 7]]
+       
+       expected: [[2, 4, 6], [1, 3, 5, 7]]
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:76:in `block (2 levels) in <top (required)>'
+
+  13) the Friday test :) number_of_elements_that_are_palindromes
+     Failure/Error: expect(n).to eq 3
+       
+       expected: 3
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:81:in `block (2 levels) in <top (required)>'
+
+  14) the Friday test :) shortest_word_in_array
+     Failure/Error: expect(n).to eq 'a'
+       
+       expected: "a"
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:86:in `block (2 levels) in <top (required)>'
+
+  15) the Friday test :) longest_word_in_array
+     Failure/Error: expect(n).to eq 'different'
+       
+       expected: "different"
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:91:in `block (2 levels) in <top (required)>'
+
+  16) the Friday test :) total_of_array
+     Failure/Error: expect(n).to eq 25
+       
+       expected: 25
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:96:in `block (2 levels) in <top (required)>'
+
+  17) the Friday test :) double_array
+     Failure/Error: expect(n).to eq [1, 2, 3, 1, 2, 3]
+       
+       expected: [1, 2, 3, 1, 2, 3]
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:101:in `block (2 levels) in <top (required)>'
+
+  18) the Friday test :) turn_symbol_into_string
+     Failure/Error: expect(n).to eq 'foobar'
+       
+       expected: "foobar"
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:106:in `block (2 levels) in <top (required)>'
+
+  19) the Friday test :) average_of_array
+     Failure/Error: expect(n).to eq 17
+       
+       expected: 17
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:111:in `block (2 levels) in <top (required)>'
+
+  20) the Friday test :) get_elements_until_greater_than_five
+     Failure/Error: expect(n).to eq [1, 3, 5, 4, 1, 2]
+       
+       expected: [1, 3, 5, 4, 1, 2]
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:116:in `block (2 levels) in <top (required)>'
+
+  21) the Friday test :) convert_array_to_a_hash
+     Failure/Error: expect(n).to eq({'a' => 'b', 'c' => 'd'})
+       
+       expected: {"a"=>"b", "c"=>"d"}
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:121:in `block (2 levels) in <top (required)>'
+
+  22) the Friday test :) get_all_letters_in_array_of_words
+     Failure/Error: expect(n).to eq ['a', 'c', 'd', 'f', 'g', 'h', 'i', 'o', 's', 't']
+       
+       expected: ["a", "c", "d", "f", "g", "h", "i", "o", "s", "t"]
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:126:in `block (2 levels) in <top (required)>'
+
+  23) the Friday test :) swap_keys_and_values_in_a_hash
+     Failure/Error: expect(n).to eq({'b' => 'a', 'd' => 'c'})
+       
+       expected: {"b"=>"a", "d"=>"c"}
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:131:in `block (2 levels) in <top (required)>'
+
+  24) the Friday test :) add_together_keys_and_values
+     Failure/Error: expect(n).to eq 6
+       
+       expected: 6
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:136:in `block (2 levels) in <top (required)>'
+
+  25) the Friday test :) remove_capital_letters_from_string
+     Failure/Error: expect(n).to eq 'ello ohnoe'
+       
+       expected: "ello ohnoe"
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:141:in `block (2 levels) in <top (required)>'
+
+  26) the Friday test :) round_up_number
+     Failure/Error: expect(n).to eq 4
+       
+       expected: 4
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:146:in `block (2 levels) in <top (required)>'
+
+  27) the Friday test :) round_down_number
+     Failure/Error: expect(n).to eq 4
+       
+       expected: 4
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:151:in `block (2 levels) in <top (required)>'
+
+  28) the Friday test :) format_date_nicely
+     Failure/Error: expect(n).to eq '31/10/2013'
+       
+       expected: "31/10/2013"
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:156:in `block (2 levels) in <top (required)>'
+
+  29) the Friday test :) get_domain_name_from_email_address
+     Failure/Error: expect(n).to eq 'makersacademy'
+       
+       expected: "makersacademy"
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:161:in `block (2 levels) in <top (required)>'
+
+  30) the Friday test :) titleize_a_string
+     Failure/Error: expect(n).to eq 'The Lion the Witch and the Wardrobe'
+       
+       expected: "The Lion the Witch and the Wardrobe"
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:166:in `block (2 levels) in <top (required)>'
+
+  31) the Friday test :) check_a_string_for_special_characters
+     Failure/Error: expect(b).to be_true
+       expected: true value
+            got: nil
+     # ./questions_spec.rb:174:in `block (2 levels) in <top (required)>'
+
+  32) the Friday test :) get_upper_limit_of
+     Failure/Error: expect(n).to eq 20
+       
+       expected: 20
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:179:in `block (2 levels) in <top (required)>'
+
+  33) the Friday test :) is_a_3_dot_range?
+     Failure/Error: expect(b).to be_true
+       expected: true value
+            got: nil
+     # ./questions_spec.rb:187:in `block (2 levels) in <top (required)>'
+
+  34) the Friday test :) square_root_of
+     Failure/Error: expect(a).to eq 3.0
+       
+       expected: 3.0
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:193:in `block (2 levels) in <top (required)>'
+
+  35) the Friday test :) word_count_a_file
+     Failure/Error: expect(n).to eq 70
+       
+       expected: 70
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:199:in `block (2 levels) in <top (required)>'
+
+  36) the Friday test :) call_method_from_string
+     Failure/Error: expect { call_method_from_string('foobar') }.to raise_error(NameError)
+       expected NameError but nothing was raised
+     # ./questions_spec.rb:203:in `block (2 levels) in <top (required)>'
+
+  37) the Friday test :) is_a_2014_bank_holiday?
+     Failure/Error: expect(a).to be_true
+       expected: true value
+            got: nil
+     # ./questions_spec.rb:210:in `block (2 levels) in <top (required)>'
+
+  38) the Friday test :) your_birthday_is_on_a_friday_in_the_year
+     Failure/Error: expect(n).to eq 2016
+       
+       expected: 2016
+            got: nil
+       
+       (compared using ==)
+     # ./questions_spec.rb:216:in `block (2 levels) in <top (required)>'
+
+  39) the Friday test :) count_words_of_each_length_in_a_file
+     Failure/Error: expect(Hash[n.sort]).to eq({1=>1, 2=>5, 3=>7, 4=>12, 5=>14, 6=>4, 7=>8, 8=>6, 9=>6, 10=>2, 11=>2, 12=>3})
+       
+       expected: {1=>1, 2=>5, 3=>7, 4=>12, 5=>14, 6=>4, 7=>8, 8=>6, 9=>6, 10=>2, 11=>2, 12=>3}
+            got: {}
+       
+       (compared using ==)
+       
+       Diff:
+       @@ -1,13 +1 @@
+       -1 => 1,
+       -10 => 2,
+       -11 => 2,
+       -12 => 3,
+       -2 => 5,
+       -3 => 7,
+       -4 => 12,
+       -5 => 14,
+       -6 => 4,
+       -7 => 8,
+       -8 => 6,
+       -9 => 6
+     # ./questions_spec.rb:221:in `block (2 levels) in <top (required)>'
+
+Finished in 0.0082 seconds
+39 examples, 39 failures
+
+Failed examples:
+
+rspec ./questions_spec.rb:11 # the Friday test :) select_elements_starting_with_a
+rspec ./questions_spec.rb:16 # the Friday test :) select_elements_starting_with_vowel
+rspec ./questions_spec.rb:21 # the Friday test :) remove_nils_from_array
+rspec ./questions_spec.rb:26 # the Friday test :) remove_nils_and_false_from_array
+rspec ./questions_spec.rb:31 # the Friday test :) reverse_every_element_in_array
+rspec ./questions_spec.rb:36 # the Friday test :) every_possible_pairing_of_students
+rspec ./questions_spec.rb:43 # the Friday test :) all_elements_except_first_3
+rspec ./questions_spec.rb:48 # the Friday test :) add_element_to_beginning_of_array
+rspec ./questions_spec.rb:53 # the Friday test :) array_sort_by_last_letter_of_word
+rspec ./questions_spec.rb:58 # the Friday test :) get_first_half_of_string
+rspec ./questions_spec.rb:66 # the Friday test :) make_numbers_negative
+rspec ./questions_spec.rb:74 # the Friday test :) separate_array_into_even_and_odd_numbers
+rspec ./questions_spec.rb:79 # the Friday test :) number_of_elements_that_are_palindromes
+rspec ./questions_spec.rb:84 # the Friday test :) shortest_word_in_array
+rspec ./questions_spec.rb:89 # the Friday test :) longest_word_in_array
+rspec ./questions_spec.rb:94 # the Friday test :) total_of_array
+rspec ./questions_spec.rb:99 # the Friday test :) double_array
+rspec ./questions_spec.rb:104 # the Friday test :) turn_symbol_into_string
+rspec ./questions_spec.rb:109 # the Friday test :) average_of_array
+rspec ./questions_spec.rb:114 # the Friday test :) get_elements_until_greater_than_five
+rspec ./questions_spec.rb:119 # the Friday test :) convert_array_to_a_hash
+rspec ./questions_spec.rb:124 # the Friday test :) get_all_letters_in_array_of_words
+rspec ./questions_spec.rb:129 # the Friday test :) swap_keys_and_values_in_a_hash
+rspec ./questions_spec.rb:134 # the Friday test :) add_together_keys_and_values
+rspec ./questions_spec.rb:139 # the Friday test :) remove_capital_letters_from_string
+rspec ./questions_spec.rb:144 # the Friday test :) round_up_number
+rspec ./questions_spec.rb:149 # the Friday test :) round_down_number
+rspec ./questions_spec.rb:154 # the Friday test :) format_date_nicely
+rspec ./questions_spec.rb:159 # the Friday test :) get_domain_name_from_email_address
+rspec ./questions_spec.rb:164 # the Friday test :) titleize_a_string
+rspec ./questions_spec.rb:169 # the Friday test :) check_a_string_for_special_characters
+rspec ./questions_spec.rb:177 # the Friday test :) get_upper_limit_of
+rspec ./questions_spec.rb:182 # the Friday test :) is_a_3_dot_range?
+rspec ./questions_spec.rb:190 # the Friday test :) square_root_of
+rspec ./questions_spec.rb:197 # the Friday test :) word_count_a_file
+rspec ./questions_spec.rb:202 # the Friday test :) call_method_from_string
+rspec ./questions_spec.rb:206 # the Friday test :) is_a_2014_bank_holiday?
+rspec ./questions_spec.rb:214 # the Friday test :) your_birthday_is_on_a_friday_in_the_year
+rspec ./questions_spec.rb:219 # the Friday test :) count_words_of_each_length_in_a_file
+
+Finished in 0.0082 seconds
+39 examples, 39 failures
+
+Failed examples:
+
+rspec ./questions_spec.rb:11 # the Friday test :) select_elements_starting_with_a
+rspec ./questions_spec.rb:16 # the Friday test :) select_elements_starting_with_vowel
+rspec ./questions_spec.rb:21 # the Friday test :) remove_nils_from_array
+rspec ./questions_spec.rb:26 # the Friday test :) remove_nils_and_false_from_array
+rspec ./questions_spec.rb:31 # the Friday test :) reverse_every_element_in_array
+rspec ./questions_spec.rb:36 # the Friday test :) every_possible_pairing_of_students
+rspec ./questions_spec.rb:43 # the Friday test :) all_elements_except_first_3
+rspec ./questions_spec.rb:48 # the Friday test :) add_element_to_beginning_of_array
+rspec ./questions_spec.rb:53 # the Friday test :) array_sort_by_last_letter_of_word
+rspec ./questions_spec.rb:58 # the Friday test :) get_first_half_of_string
+rspec ./questions_spec.rb:66 # the Friday test :) make_numbers_negative
+rspec ./questions_spec.rb:74 # the Friday test :) separate_array_into_even_and_odd_numbers
+rspec ./questions_spec.rb:79 # the Friday test :) number_of_elements_that_are_palindromes
+rspec ./questions_spec.rb:84 # the Friday test :) shortest_word_in_array
+rspec ./questions_spec.rb:89 # the Friday test :) longest_word_in_array
+rspec ./questions_spec.rb:94 # the Friday test :) total_of_array
+rspec ./questions_spec.rb:99 # the Friday test :) double_array
+rspec ./questions_spec.rb:104 # the Friday test :) turn_symbol_into_string
+rspec ./questions_spec.rb:109 # the Friday test :) average_of_array
+rspec ./questions_spec.rb:114 # the Friday test :) get_elements_until_greater_than_five
+rspec ./questions_spec.rb:119 # the Friday test :) convert_array_to_a_hash
+rspec ./questions_spec.rb:124 # the Friday test :) get_all_letters_in_array_of_words
+rspec ./questions_spec.rb:129 # the Friday test :) swap_keys_and_values_in_a_hash
+rspec ./questions_spec.rb:134 # the Friday test :) add_together_keys_and_values
+rspec ./questions_spec.rb:139 # the Friday test :) remove_capital_letters_from_string
+rspec ./questions_spec.rb:144 # the Friday test :) round_up_number
+rspec ./questions_spec.rb:149 # the Friday test :) round_down_number
+rspec ./questions_spec.rb:154 # the Friday test :) format_date_nicely
+rspec ./questions_spec.rb:159 # the Friday test :) get_domain_name_from_email_address
+rspec ./questions_spec.rb:164 # the Friday test :) titleize_a_string
+rspec ./questions_spec.rb:169 # the Friday test :) check_a_string_for_special_characters
+rspec ./questions_spec.rb:177 # the Friday test :) get_upper_limit_of
+rspec ./questions_spec.rb:182 # the Friday test :) is_a_3_dot_range?
+rspec ./questions_spec.rb:190 # the Friday test :) square_root_of
+rspec ./questions_spec.rb:197 # the Friday test :) word_count_a_file
+rspec ./questions_spec.rb:202 # the Friday test :) call_method_from_string
+rspec ./questions_spec.rb:206 # the Friday test :) is_a_2014_bank_holiday?
+rspec ./questions_spec.rb:214 # the Friday test :) your_birthday_is_on_a_friday_in_the_year
+rspec ./questions_spec.rb:219 # the Friday test :) count_words_of_each_length_in_a_file
